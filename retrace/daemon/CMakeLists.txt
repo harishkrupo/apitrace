@@ -52,6 +52,8 @@ set (RETRACE_SOURCES
   glframe_os.hpp
   glframe_logger.cpp
   glframe_logger.hpp
+  glframe_perf_enabled.hpp
+  glframe_perf_enabled_linux.cpp
   glframe_retrace.cpp
   glframe_retrace.hpp
   glframe_retrace_interface.hpp
