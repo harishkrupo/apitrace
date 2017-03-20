@@ -190,7 +190,7 @@ class FrameRetraceModel : public QObject,
         Warning,
         Fatal
     };
-  Q_ENUM(Severity);
+  Q_ENUMS(Severity);
   Severity errorSeverity() const { return m_severity; }
  public slots:
   void onUpdateMetricList();

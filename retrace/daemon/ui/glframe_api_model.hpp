@@ -30,7 +30,7 @@
 
 #include <QObject>
 #include <QString>
-
+#include <QStringList>
 #include <mutex>
 #include <string>
 #include <map>
